@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    android:padding="16dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/List_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Id:" />
+        <TextView
+            android:id="@+id/List_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Nombre:" />
+        <TextView
+            android:id="@+id/List_marca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Marca:" />
+
+        <TextView
+            android:id="@+id/List_precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Marca:" />
+
+        <TextView
+            android:id="@+id/List_disponible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Marca:" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/List_bnt_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80sp"
+        android:gravity="center_vertical"
+        android:text="@string/btn_eliminar"
+        android:textSize="15sp"
+        android:textAllCaps="false" />
+
+</LinearLayout>

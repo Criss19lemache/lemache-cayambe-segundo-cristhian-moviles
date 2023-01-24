@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MovCompSCLC</string>
+    <string name="hola_mundo">Hellow World</string>
+    <color name="color_hola_mundo">#F44336</color>
+    <color name="color_hola_mundo_fondo">#26CFD5</color>
+    <string name="title_activity_aciclo_vida">ACicloVida</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hellow_world">Hellow World</string>
+    <string name="ciclo_vida">CICLO VIDA</string>
+    <string name="button">Button</string>
+    <string name="a_adir">Añadir</string>
+
+    <string-array name="string_array_opciones_dialogo">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
+
+</resources>

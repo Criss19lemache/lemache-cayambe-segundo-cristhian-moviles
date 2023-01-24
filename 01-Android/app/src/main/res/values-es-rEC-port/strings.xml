@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovCompSCLC</string>
+    <string name="hola_mundo" >Hola mundo</string>
+    <color name="color_hola_mundo">#9C27B0</color>
+    <color name="color_hola_mundo_fondo">#F44336</color>
+</resources>

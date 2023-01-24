@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hola_mundo">Hellow world</string>
+    <color name="color_hola_mundo">#673AB7</color>
+    <color name="color_hola_mundo_fondo">#FFEB3B</color>
+</resources>
