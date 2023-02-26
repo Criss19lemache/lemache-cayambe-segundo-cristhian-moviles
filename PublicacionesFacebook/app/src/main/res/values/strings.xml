@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Facebook</string>
+
+    <style name="roundedImagen">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
