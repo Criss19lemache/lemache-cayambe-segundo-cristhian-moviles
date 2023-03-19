@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="24dp">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="415dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/titulologin" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:text="Iniciar sesión"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ecuador" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/txtUsuarioLogin"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <TextView
+        android:id="@+id/txtOlvidastePasswrod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="28dp"
+        android:text="Has olvidado la contraseña?"
+        android:textColor="#0B0B0B"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPasswordLogin" />
+
+    <EditText
+        android:id="@+id/txtPasswordLogin"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/txtUsuarioLogin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtUsuarioLogin"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsuarioLogin" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Entrar"
+        android:textColor="#0C0C0C"
+        android:textSize="18dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOlvidastePasswrod" />
+
+    <TextView
+        android:id="@+id/linkCrearEnlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Crear Cuenta"
+        android:textColor="#090909"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/btnIngresarGoogle" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:text="Aun no tienes cuenta ?"
+        android:textColor="#070707"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIngresarGoogle" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="--------- Ingresar con ---------"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIngresar" />
+
+    <Button
+        android:id="@+id/btnIngresarGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/google"
+        android:text="Google"
+        android:textColor="#0B0A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

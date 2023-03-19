@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Venta">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL"
+        android:textColor="#020202"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/btnMas"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:text="+"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/btnMenos"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="408dp"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondonaranja"
+
+        />
+
+    <TextView
+        android:id="@+id/txtUsuarioLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:text="Cristhian Lemache"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Usuario:"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Mi Pedido"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/fondocarrito" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24"
+        app:srcCompat="@drawable/carritoventa1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Vehiculos"
+        android:textColor="#040404"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="$ 80"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <Button
+        android:id="@+id/btnMenos"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:text="-"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/txtNumProductos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="1"
+        android:textColor="#070707"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnMas"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toEndOf="@+id/btnMenos"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="220dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/fondototal" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="16dp"
+        android:text="Pagar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="TOTAL"
+        android:textColor="#020202"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/txtValorTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="8dp"
+        android:text="80"
+        android:textColor="#040404"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="$"
+        android:textColor="#050505"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+        app:layout_constraintEnd_toStartOf="@+id/txtValorTotal"
+        app:layout_constraintTop_toTopOf="@+id/imageView26"
+        app:layout_constraintVertical_bias="0.363" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

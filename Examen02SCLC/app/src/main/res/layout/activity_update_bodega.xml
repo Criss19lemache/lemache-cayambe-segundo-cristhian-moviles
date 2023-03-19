@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateBodega">
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Nombre Bodega"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Total Productos"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/txtnombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtnombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/txtMarca"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/txtMarca"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarca" />
+
+    <EditText
+        android:id="@+id/txtStock"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Gerente"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtPrecio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtPrecio"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecio" />
+
+    <Button
+        android:id="@+id/btn_ingresarProducto"
+        android:layout_width="174dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:text="Actualizar"
+        app:layout_constraintEnd_toEndOf="@+id/txtStock"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/txtStock"
+        app:layout_constraintTop_toBottomOf="@+id/txtStock" />
+
+    <TextView
+        android:id="@+id/txtTituloInsertProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Actualizar bodega"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtnombre"
+        app:layout_constraintEnd_toEndOf="@+id/txtnombre"
+        app:layout_constraintStart_toStartOf="@+id/txtnombre" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

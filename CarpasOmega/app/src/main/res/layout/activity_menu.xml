@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/btnGaleria"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#8B90BE"
+        android:drawableTop="@drawable/galeria"
+        android:padding="16dp"
+        android:text="Galeria"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProductos" />
+
+    <Button
+        android:id="@+id/btnServicios"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#8B90BE"
+        android:drawableTop="@drawable/servicios"
+        android:padding="16dp"
+        android:text="Servicios"
+        android:textColor="#020202"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btnProductos"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#8B90BE"
+        android:drawableTop="@drawable/productos2"
+        android:padding="16dp"
+        android:text="Productos"
+        android:textColor="#020202"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="CATEGORIAS"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="408dp"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondonaranja"
+
+        />
+
+    <TextView
+        android:id="@+id/txtUsuarioLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:text="Cristhian Lemache"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Usuario:"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imgCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintStart_toEndOf="@+id/txtUsuarioLog"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/carrito2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Bienvenido a Carpas Omega"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btnPromociones"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#8B90BE"
+        android:drawableTop="@drawable/promociones"
+        android:padding="16dp"
+        android:text="Promociones"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProductos" />
+
+    <Button
+        android:id="@+id/btnContacto"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#8B90BE"
+        android:text="Contacto"
+        android:textColor="#020202"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnGaleria"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnPromociones"
+        app:layout_constraintTop_toBottomOf="@+id/btnPromociones" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

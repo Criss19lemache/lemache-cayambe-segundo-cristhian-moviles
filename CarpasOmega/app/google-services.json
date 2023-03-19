@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "32685646240",
+    "project_id": "carpasomega-d97e9",
+    "storage_bucket": "carpasomega-d97e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32685646240:android:dd865a016704d6f0aa04c5",
+        "android_client_info": {
+          "package_name": "com.example.carpasomega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32685646240-cfuorujdrr787sph4aq3fbdo0rkbcniq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkLUCHbRhgGOxqh9sD_8r-j4YRGTpRMXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32685646240-cfuorujdrr787sph4aq3fbdo0rkbcniq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
